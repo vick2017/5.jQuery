@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Exercise</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	<div>Div 1</div>
+	<div class="highlight">Div 2</div>
+	<div id="third">Div 3</div>
+	<div class="highlight">Div 4</div>
+
+
+	<!-- jQuery example!!!!-->
+	<script type="text/javascript">
+					$("div").css({background: "purple"});
+				$("#third").css("border","20px solid orange");
+
+				$("div.highlight").css("width","200px");
+				// $("div" ).first().css( "color", "pink" );
+
+				$("div:first-of-type" ).css( "color", "pink" );
+	</script>
+</body>
+</html>
